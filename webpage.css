@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+*{
+    background-color: black;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding-top:30px ;
+}
+#logo{
+    font-size: 40px;
+    margin: 80px;
+    font-family: 'JetBrains Mono', monospace;
+}
+nav a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#navbar a:hover{
+    color:rgb(249,200,32) ;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    /* border: 1px solid white; */
+}
+
+.buttons{
+    /* background-color: rgb(255, 217, 0); */
+    background-image: radial-gradient(rgb(249,200,32), rgb(217, 165, 9));
+    font-size: 20px;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0 15px 30px 0 rgb(225, 179, 14), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-bottom: 50px;
+    font-family: 'JetBrains Mono', monospace;
+}
+.buttons:hover{
+    background-image: radial-gradient(rgb(220, 220, 220),white);
+    color: black;
+    box-shadow: 0 15px 30px 0 rgb(225, 179, 14), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+#main-heading{
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+}
+#home{
+    margin: 90px;
+    padding-top: 80px;
+}
+
+#intro-1{
+    color: white;
+    font-size: 60px;
+}
+#intro-2{
+    color: rgb(249,200,32);
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.text{
+    color: gray;
+}
+#button1{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+}
+#picture img{
+    height: 600px;
+    border-radius: 50%;
+    margin-top: 180px;
+    margin-right: 180px;
+}
+.social-icons{
+    color: rgb(249,200,32);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 50px;
+}
+
+#services{
+    display:flex;
+    margin-top: 250px;
+    margin-left: 90px;
+    font-family: 'JetBrains Mono', monospace;
+}
+#intro-3{
+    color: white;
+    font-size: 30px;
+}
+#intro-4{
+    color: rgb(249,200,32);
+    font-size: 30px;
+}
+#text-2{
+    margin-bottom: 70px;
+}
+
+#right-div{
+    width: 1500px;
+}
+
+
+.box{
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 5%;
+    margin: 1px;
+    color: white;
+}
+
+.box:nth-of-type(1){
+    margin-left: 400px;
+    margin-top:0px ;
+}
+.box:nth-of-type(2){
+    margin-left: -200px;
+    margin-top: 0px;
+}
+.box:nth-of-type(3){
+    margin-left: 300px;
+    margin-top: -80px;
+}
+.outer-box{
+    height: 500px;
+    width: 300px;
+}
+.icons{
+    font-size: 296px;
+    color: rgb(249,200,32);;
+    border: 2px solid rgb(249,200,32);;
+    border-radius: 5%;
+    text-align: center;
+}
+.box-text{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.buttons-2{
+    background-image: radial-gradient(rgb(220, 220, 220),white);
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+}
+.center-button{
+    margin-left:70px ;
+    margin-top: 50px;
+}
+
+#services-2{
+    margin-top: 200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'JetBrains Mono', monospace;
+}
+.circles{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: rgb(249,200,32);
+    font-weight: 900;
+}
+.circles p{
+    font-size: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.text-1{
+    color: white;
+    text-align: center;
+}
+.text-2{
+    margin-top: -15px;
+    color: rgb(249,200,32);
+    text-align: center;
+}
+#intrested{
+    display: flex;
+    margin-top: 120px;
+    font-family: 'JetBrains Mono', monospace;
+}
+#left-division{
+    margin-left: 90px;
+}
+#right-division{
+    margin-right: 90px;
+    margin-top: -40px;
+}
+
+#portfolio{
+    font-family: 'JetBrains Mono', monospace;
+}
+#heading-center-1{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+#heading-center-2{
+    color: rgb(249,200,32);
+    font-size: 4em;
+    text-align: center;
+}
+#heading-center-0{
+    margin: auto;
+    margin-bottom: 200px;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    border-radius: 30px;
+    
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+
+.card h4{
+    background-color: rgb(48, 48, 48);
+    font-size: 40px;
+}
+.card p{
+    background-color: rgb(48, 48, 48);
+    font-size: 20px;
+}
+.button-3{ 
+    background-color: rgb(249,200,32);
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 90px;
+    border: none;
+}
+
+#education-heading{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+#education{
+    margin-top: 300px;
+    font-family: 'JetBrains Mono', monospace;
+}
+#education-heading h1 span{
+    color: rgb(249,200,32);
+}
+#box-card{
+    height: 400px;
+    width: 700px;
+    margin: 90px auto ;
+    border-radius:30px;
+    background-color: rgb(48, 48, 48);
+    border: 5px solid white;
+}
+
+#circle-photo{
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#box-card h1{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    color: white;
+}
+#box-card h3{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    color: white;
+    margin-top: -30px;
+}
+#box-card button{
+    margin-left: 44%;
+    margin-top: -5px;
+}
+#contact{
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+    margin-top: 300px;
+}
+#heading-contact{
+    margin-left: 90px;
+}
+#heading-contact h1{
+    color: rgb(249,200,32);
+    font-size: 70px;
+}
+#heading-contact h2{
+    color: white;
+    font-size: 60px;
+}
+
+#form{
+    margin-top: 80px;
+}
+
+#name{
+    margin-bottom: 70px;
+    margin-left: 800px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    border: 4px solid rgb(249,200,32);
+}
+#email{
+    margin-bottom: 70px;
+    margin-left: 800px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    border: 4px solid rgb(249,200,32);
+}
+#message{
+    margin-bottom: 70px;
+    margin-left: 800px;
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    border: 4px solid rgb(249,200,32);
+}
+#form button{
+    margin-left: 940px;
+
+}
+svg{
+    display: block;
+    position: relative;
+}
+#curve h3{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffd700;
+}
+.social-icons-2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 20px;
+    background-color: #ffd700;
+}
+#content{
+    position:absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 980px;
+    background-color: rgba(0,0,0,0);
+}
+#s-i{
+    background-color: #ffd700;
+}
+
+@media screen and (max-width:390px){
+    body{
+        overflow-x:hidden ;
+    }
+    
+    #navbar{
+        margin-top: 10px;
+    }
+    
+    #navbar a{
+        display: none;
+        margin-top: 90px;
+    }
+    #logo{
+        font-size: 90px;
+    }
+    #navbar button{
+        transform: scale(1,1);
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+    #main-heading{
+        display: block;
+        width: fit-content;
+    }
+    #intro-1{
+        font-size: 120px;
+    }
+    #intro-2{
+        margin-top: -30px;
+        font-size: 120px;
+    }
+    .text{
+        font-size: 30px;
+        width: 1000px;
+    }
+    #home button{
+        margin-top: 300px;
+    }
+    #button1{
+        height: 150px;
+        width: 400px;
+        font-size: 50px;
+    }
+    .social-icons{
+        font-size: 200px;
+    }
+    #picture{
+        margin-left: 100px;
+    }
+    #picture img{
+        height:1300px ;
+    }
+    #services{
+        display: block;
+    }
+    #left-div{
+        width: fit-content;
+    }
+    #intro-3{
+        font-size: 80px;
+    }
+    #intro-4{
+        font-size: 90px;
+    }
+    #text-2{
+        font-size: 50px;
+    }
+    .buttons{
+        height: 150px;
+        width: 400px;
+        font-size: 50px;
+    }
+    #right-div .box{
+        height: 1700px;
+        width: 1300px;
+    }
+    .services-div{
+        margin: 40px;
+    }
+    .box button{
+        height: 150px;
+        width: 400px;
+        font-size: 60px;
+    }
+    .box .icons{
+        font-size: 1296px;
+    }
+    .box p{
+        font-size: 40px;
+    }
+    .center-button{
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+
+    .box:nth-of-type(1){
+        margin-left: 20px;
+        margin-top:400px ;
+    }
+    .box:nth-of-type(2){
+        margin-left: 20px;
+        margin-top: 400px;
+    }
+    .box:nth-of-type(3){
+        margin-left: 20px;
+        margin-top: 400px;
+    }
+    #services-2{
+        margin-left:800px;
+    }
+    #services-2 div{
+        height: 400px;
+        width: 400px;
+    }
+    /* {
+        height: 200px;
+    } */
+    .circles{
+        height: 400px;
+        width: 400px;
+    }
+    .circles p{
+        font-size: 80px;
+        height: 400px;
+        width: 400px;
+        line-height: 400px;
+    }
+    .services-div h4{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .services-div h2{
+        font-size: 40px;
+    }
+    #intrested{
+        margin-top: 500px;
+        width: 1200px;
+        display: block;
+    }
+    #right-division{
+        height: 2000px;
+    }
+    #right-division img{
+        height: 1500px;
+    }
+    #heading-center-0 h2{
+        margin-left: 300px;
+        font-size: 90px;
+        width: 900px;
+    }
+    #heading-center-0 h1{
+        font-size: 100px;
+        margin-left: 480px;
+    }
+    #cards{
+        display: block;
+    }
+    .card{
+        height: 1700px;
+        width: 1300px;
+        margin-left: 100px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        border-radius: 30px;
+        padding-top: 50px;
+    }
+    .card h4{
+        font-size: 100px;
+        width: 1000px;
+        margin-left: 140px;
+    }
+    .card p{
+        font-size: 70px;
+    }
+    .card button{
+        height: 200px;
+        width: 400px;
+        font-size: 80px;
+    }
+    #education-heading{
+        font-size: 60px;
+        width: 1200px;
+        margin-left: 180px;
+        margin-top: 600px;
+        margin-bottom: 300px;
+    }
+    #box-card{
+        width: 1400px;
+        height: 900px;
+        margin-left: 65px;
+    }
+    #box-card img{
+        height: 400px;
+        margin-left: 500px;
+    }
+    #box-card h1{
+        font-size: 60px;
+    }
+    #box-card h3{
+        font-size: 40px;
+    }
+    #box-card button{
+        height: 150px;
+        width: 300px ;
+        margin-left: 550px;
+        font-size: 80px;
+    }
+    #contact{
+        display: block;
+    }
+    #heading-contact{
+        width: 1200px;
+    }
+    #heading-contact h2{
+        font-size: 100px;
+    }
+    #heading-contact h1{
+        font-size: 100px;
+    }
+    form{
+        height: 1700px;
+        width: 1200px;
+        margin-left: -650px;
+    }
+    form #name{
+        height: 200px;
+        width: 1200px;
+        font-size: 80px;
+    }
+    form #email{
+        height: 200px;
+        width: 1200px;
+        font-size: 80px;
+    }
+    form #message{
+        height: 400px;
+        width: 1200px;
+        font-size: 80px;
+    }
+    #curve{
+        width: 1800px;
+        height: 200px;
+    }
+    #curve h3{
+        font-size:60px;
+        margin-left: -550px;
+    }
+    #s-i{
+        width: 500px;
+        margin-top: -50px;
+        margin-left: -250px;
+    }
+    
+}
